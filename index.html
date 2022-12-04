@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quantecho</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  </head>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="" width="180" height="60">
+          </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#"></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Career
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Internship</a></li>
+                  <li><a class="dropdown-item" href="#">Apply for job</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Life at Quan<span class="techo">techo</span> </a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success all_btn" type="submit">Search</button>
+            </form>
+            <button class="btn btn-outline-success login_btn all_btn" type="submit">Login</button>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+
+
+
+  <body>
+    <div id="carouselExampleInterval" class="carousel slide shadow-sm p-3 mb-5 bg-body rounded" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <div class="row">
+                <div class="col-md-7 d-flex align-items-center carousel_content">
+                    
+                    
+                    <div><p><h1>Quan<span class="techo">Techo</span> builds <br> responsive   websites for you </h1> <br> Our experienced web design team will work with you every step of the way to create a website that captures your vision, meets your goals, and looks great on any device. Get in touch with us today <br> to see what we can do for you!</p><br>
+                        <button class="btn btn-outline-success car_btn" type="submit">Contuct Us</button></div>
+                </div>
+
+
+            <div class="col-md-5"><img src="car1.jpg" class="d-block w-100" alt="..."></div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="row">
+                <div class="col-md-7 d-flex align-items-center carousel_content">
+                    
+                    
+                    <div><p><h1 class="heading">HOW WE WORK!!</h1> <br> The process is defined as a sequence of steps. When followed, it helps to achieve a goal. We consider it - the art of thinking through.</p><br>
+                        <button class="btn btn-outline-success car_btn" type="submit">Consultation</button></div>
+                </div>
+            <div class="col-md-5"><img src="car2.jpg" class="d-block w-100" alt="..."></div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="row">
+                <div class="col-md-7 d-flex align-items-center carousel_content">
+                    
+                    
+                    <div><p><h1>Our expert guidance helps you</h1> <br> We understand that you are looking for solutions to your web development problems, and we are here to help! Our team of experienced web developers are well-versed in the latest technologies, enabling us to provide you with the best solutions for your project. Take advantage of our expertise and let us help you create an outstanding web presence!</p> <br>
+                        <button class="btn btn-outline-success car_btn" type="submit">Our Team</button>
+                    </div>
+                </div>
+            <div class="col-md-5"><img src="car3.jpg" class="d-block w-100" alt="..."></div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div style="text-align: center;" style="display: flex; justify-content: space-between;" class="icon_div" >
+        <button class="btn btn-outline-success car_btn icon_button" onclick="scrollToSectionword()">Website Solutions</button>
+        <button class="btn btn-outline-success car_btn icon_button" onclick="scrollToSectionapp()">App Solutions</button>
+        <p></p>
+      <button class="btn btn-outline-success car_btn icon_button" onclick="scrollToSectionSeo()">SEO Solutions</button>
+      <p>     </p>
+      
+      
+    </div>
+      <section class="body_middle">
+        <div id="section1" class="row">
+            <div class="col-md-6 d-flex align-items-center carousel_content">
+                
+                
+                <div><p><h1><span class="techo">Web Development </span> & <br>  WordPress </h1> <br> We specialize in providing comprehensive web development services, including custom WordPress solutions. Our skilled staff of web developers and designers can create a beautiful, functional, and user-friendly website that will help your business grow. We use the latest technologies, including HTML5, CSS3, JavaScript, AJAX, as well as custom coding to ensure your website is optimized and tailored to your needs. We also specialize in custom WordPress solutions, from developing themes and plugins to creating content and managing themes. With our extensive experience and expertise, we can help you create a website that meets your needs and stands out from the competition.</p><br>
+                    <button class="btn btn-outline-success car_btn" type="submit">Contuct Us</button></div>
+            </div>
+
+
+        <div class="col-md-6"><img src="wordpress.jpg" class="d-block w-100" alt="..."></div>
+        </div>
+        <br>
+        <br>
+        <div id="section2" class="row">
+            
+
+        <div class="col-md-6"><img src="app.jpg" class="d-block w-100" alt="..."></div>
+        <div class="col-md-6 d-flex align-items-center carousel_content">
+                
+                
+            <div><p><h1><span class="techo">App</span> Development </h1> <br> We specialize in developing high-quality custom mobile applications for iOS and Android. Our team of experienced developers will work with you to design, develop and launch a mobile application tailored to your exact specifications. We can help bring your vision to life and create an engaging, feature-rich application that meets the needs of your users. Our app development services include: UI/UX design, coding, quality assurance testing, and app store submission. With our expertise and experience, you can trust that your app will be delivered on time and within budget.</p><br>
+                <button class="btn btn-outline-success car_btn" type="submit">Contuct Us</button></div>
+        </div>
+
+        </div>
+
+        <div id="section3" class="row">
+            <div class="col-md-6 d-flex align-items-center carousel_content">
+                
+                
+                <div><p><h1><span class="techo">Search</span>  Engine Optimization </h1> <br> Search engine optimization (SEO) is the process of improving the visibility of a website or a web page in a search engine's unpaid results. SEO focuses on improving the ranking of a website or web page in the search engine's natural, or organic, search results. SEO involves both the technical and creative elements required to improve rankings, drive traffic, and increase awareness in search engines.</p><br>
+                    <button class="btn btn-outline-success car_btn" type="submit">Contuct Us</button></div>
+            </div>
+
+
+        <div class="col-md-6"><img src="seo.jpg" class="d-block w-100" alt="..."></div>
+        </div>
+      </section>
+      
+
+      <section class="testimonial-section section-padding">
+        <div class="container" >
+            <div style="width:100%; display:flex; justify-content:space-between">
+                <div style="float:left" class="col-md-6" >
+                    <div class="testimonial-flex">
+                        <div class="testymonialpart">
+                          <img src="Photos/Man.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="testimonial-text" style="text-align:left" >
+                          <p ><h2 id="ending_heading"><span class="techo">Experience</span> World-class <br> Agile Product Development</h2> <br>
+                            Harness digitized business solutions comprising web, android and iOS app solutions leveraging Blockchain, AI Chatbots, Machine Learning and IoT technologies for your startup or enterprise.
+                            Build and deploy thriving agile solutions that help you design, develop, and scale.
+                        </p>
+                            
+                        </div>
+                      </div></div>
+                <div style="float:right"><img src="hop.jpg"  class="d-block w-100" alt="..." width="200px" height="500px"></div>
+              </div>
+              
+             
+
+
+          
+
+          
+        </div>
+      </section>
+      
+
+      <section class="first-section">
+        <h1 style="text-align:center;">Our Office</h1>
+        <br>
+        <br>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="p1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title" style="text-align:center;"><b><span class="techo">4000+</span> Client</b></h5>
+                  <p class="card-text" style="text-align:center;">Learn Anythings </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="p2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title" style="text-align:center;"><b><span class="techo">200+</span> Projects</b></h5>
+                  <p class="card-text" style="text-align:center;">Learn Anywhere </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="p3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title" style="text-align:center;"><b><span class="techo">50+</span> Countries</b></h5>
+                  <p class="card-text" style="text-align:center;">Learn Anytime </p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+                <img src="logo.png" class="d-block w-100" alt="...">
+              
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>Products</li>
+           
+                <li><a class="footer-part" href="">Front-End</a></li>
+                <li><a class="footer-part" href="">Back-End</a></li>
+                <li><a class="footer-part" href="">FullStack</a></li>
+                <li><a class="footer-part" href="">Mobile Apps</a></li>
+                <li><a class="footer-part" href="">Shop</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>Terms</li>
+                <li><a class="footer-part" href="">Help</a></li>
+                <li><a class="footer-part" href="">Contact</a></li>
+                <li><a class="footer-part" href="">Fees</a></li>
+                <li><a class="footer-part" href="">Apps</a></li>
+                <li><a class="footer-part" href="">Shop</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <ul>
+                <li>Useful Link</li>
+                <li><a class="footer-part" href="">About us</a></li>
+                <li><a class="footer-part" href="">Partners</a></li>
+                <li><a class="footer-part" href="">Feedback</a></li>
+                <li><a class="footer-part" href="">Head Office</a></li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p class="text-center grayfonts">Copyright © 2022 Hamim Nasim</p>
+          </div>
+        </div>
+      </footer>
+    <script>function scrollToSectionword() {
+        window.scrollTo(0,document.getElementById('section1').offsetTop);
+    }
+    function scrollToSectionapp() {
+        window.scrollTo(0,document.getElementById('section2').offsetTop);
+    }
+    function scrollToSectionSeo() {
+        window.scrollTo(0,document.getElementById('section3').offsetTop);
+    }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
